@@ -7,7 +7,7 @@ name = input("Enter your name: ")
 age = input("Enter your age: ")
 
 # Ask the user for their location
-location = input("Enter your location: ")
+locale = input("Enter your location: ")
 
 # Print a personalized message
-print(f"Hello {name}, you are {age} years old and live in {location}.")
+print(f"Hello {name}, you are {age} years old and live in {locale}.")
