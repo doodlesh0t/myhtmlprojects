@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Links</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #ddd;
+            padding: 5px;
+            margin: 10px 0;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Home Section -->
+    <section id="home">
+        <h1>Welcome to Our Website</h1>
+        <p>Explore the amazing world of technology, nature, and delicious food!</p>
+        <a href="https://www.pexels.com/" target="_blank">
+            <img src="https://images.pexels.com/photos/5775858/pexels-photo-5775858.jpeg" alt="Technology Image">
+        </a>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery">
+        <h2>Nature Gallery</h2>
+        <div class="gallery">
+            <a href="https://www.pexels.com/" target="_blank">
+                <img src="https://images.pexels.com/photos/2087458/pexels-photo-2087458.jpeg" alt="Nature Image 1">
+            </a>
+            <a href="https://www.pexels.com/" target="_blank">
+                <img src="https://images.pexels.com/photos/1593052/pexels-photo-1593052.jpeg" alt="Nature Image 2">
+            </a>
+            <a href="https://www.pexels.com/" target="_blank">
+                <img src="https://images.pexels.com/photos/1627286/pexels-photo-1627286.jpeg" alt="Nature Image 3">
+            </a>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu">
+        <h3>Delicious Menu</h3>
+        <ul>
+            <li>
+                <a href="https://www.pexels.com/" target="_blank">
+                    <img src="https://images.pexels.com/photos/3278848/pexels-photo-3278848.jpeg" alt="Food Item 1"> Pizza
+                </a>
+            </li>
+            <li>
+                <a href="https://www.pexels.com/" target="_blank">
+                    <img src="https://images.pexels.com/photos/1581380/pexels-photo-1581380.jpeg" alt="Food Item 2"> Sushi
+                </a>
+            </li>
+            <li>
+                <a href="https://www.pexels.com/" target="_blank">
+                    <img src="https://images.pexels.com/photos/3715601/pexels-photo-3715601.jpeg" alt="Food Item 3"> Ice Cream
+                </a>
+            </li>
+        </ul>
+    </section>
+
+</body>
+</html>
